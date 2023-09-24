@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://job-track-app-backend.onrender.com/api',
+        target: 'https://job-track-app-backend.onrender.com:10000/api',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
