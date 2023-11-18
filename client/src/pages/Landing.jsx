@@ -16,7 +16,8 @@ const Landing = () => {
             job <span>tracking</span> app
           </h1>
           <p>
-            Welcome.
+            Welcome. This is a website to keep track of job applications. You can record the details of your applications such as position, company, job location, job status and job type.
+            You can click 'Login / Demo User', and then 'Explore the App' to get started.
           </p>
           <Link to='/register' className='btn register-link'>
             Register
